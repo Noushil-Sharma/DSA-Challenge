@@ -11,6 +11,8 @@ bool isSafe(int x,int y,int n){
     }
     
 
+
+
     //Function to find out minimum steps Knight needs to reach target position.
 	int minStepToReachTarget(vector<int>&K,vector<int>&T,int N)
 	{
