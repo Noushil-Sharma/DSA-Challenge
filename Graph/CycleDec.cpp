@@ -11,6 +11,8 @@ bool checkCycleDFS(int node,vector<bool> &visited,unordered_map<int,int> &parent
             bool cycleDetected = checkCycleDFS(neighbour,visited,parent,adj);
             if(cycleDetected) return true;
         }
+
+        
         else if(parent[neighbour]){
             return true;
             
