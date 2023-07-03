@@ -24,6 +24,9 @@ class Solution
                 continue;
             }
             ans = ans+dist;
+
+
+            
             
             vis[node]=1;
             
