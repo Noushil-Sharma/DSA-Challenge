@@ -140,9 +140,7 @@ int main() {
 
   cout<<ans;
    
-
-
-  }
+}
 
 
   
